@@ -24,7 +24,7 @@
 }
 .print-row {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .print-button {
     margin-top: 20px;
