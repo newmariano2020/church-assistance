@@ -1,0 +1,24 @@
+
+.assistance-container{
+    width: 80%;
+    margin-left: 10%;
+}
+.assistance-title{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.select-style {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.assistance-container {
+    display: flex;
+    flex-direction: column;
+}
+.assistance-row_filter{
+    margin-bottom: 50px;
+}

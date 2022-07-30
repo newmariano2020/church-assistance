@@ -1,0 +1,43 @@
+.formedit-title {
+    margin-top: 50px;
+}
+.contenedor-formedit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 900px;
+    width: 80%;
+    margin-left: 10%;
+}
+.form-style {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: left;
+}
+.row-formedit {
+    display: flex;
+    justify-content: center;
+}
+.form-name {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.form-input_name {
+    height: 45px;
+    border: 1px solid #B8B8B8;
+    border-radius: 4px;
+}
+.submit-formedit {
+    display: flex;
+    justify-content: center;
+}
+.submit-formedit_button-input {
+    height: 45px;
+    border: 1px solid #B8B8B8;
+    border-radius: 4px;
+    width: 50%;
+}

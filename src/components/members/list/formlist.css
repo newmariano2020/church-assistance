@@ -1,0 +1,32 @@
+.formlist-title {
+    margin: 30px;
+    display: flex;
+    margin-right: 10%;
+    justify-content: center;
+}
+.formlist-style {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.input-list_name {
+    width: 30%;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 10%;
+}
+.contenedor-formlist {
+
+    width: 80%;
+    margin-left: 10%;
+}
+.print-row {
+    display: flex;
+    justify-content: end;
+}
+.print-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
