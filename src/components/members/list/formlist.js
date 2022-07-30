@@ -7,16 +7,15 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { getMembersFromApi } from "../../../api/members";
-import ResponsiveAppBar from "../../assistance/list/menu";
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 export default function Formlist() {
   const {
-    register,
+    
     handleSubmit,
-    formState: { errors },
+    
   } = useForm();
   const onSubmit = (data) => console.log(data);
 
@@ -57,7 +56,7 @@ export default function Formlist() {
 
   useEffect(() => {
     searchMembers();
-  }, []);
+  }, );
 
   return (
     <div className="contenedor-formlist">
